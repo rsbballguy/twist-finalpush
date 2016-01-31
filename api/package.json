@@ -1,0 +1,12 @@
+{
+  "name": "chat-example",
+  "version": "0.0.0",
+  "main": "server.js",
+  "repository": "",
+  "author": "Rahul Sundararaman",
+ "dependencies": {
+        "express": "~4.0.0",
+        "twilio": "~3.3.0-edge",
+        "body-parser": "~1.0.1"
+    }
+}
