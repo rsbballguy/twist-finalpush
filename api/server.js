@@ -9,7 +9,7 @@ var client = require('twilio')('key', 'secret');
 var router = express.Router();
 var google = require('google')
 var systemrequirements ="";
-var temporarycounter = 0;
+//no need
 
 var twilio = require('twilio');
 var FB = require('fb');
