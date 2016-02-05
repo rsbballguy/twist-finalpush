@@ -5,6 +5,8 @@ var TwitterBot = require("node-twitterbot").TwitterBot;
 var mongoose = require('mongoose');
 var mongodb = require('mongodb');
 var User = require('./app/model/user');
+var systemrequirements ="";
+var netrequirements ="";
 
 // Configure the Twitter strategy for use by Passport.
 //

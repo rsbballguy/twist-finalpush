@@ -1,5 +1,8 @@
 //MONGO DB SETUP <---------------------------------------------------------------------------------------------------------------->
+//Mongoose is node js dependency
 var mongoose = require('mongoose');
+var temp =0;
+var count -0;
 mongoose.connect('mongodb://localhost:27017/mydatabase');
 
 // grab the things we need

@@ -8,6 +8,8 @@ var port = process.env.PORT || 8080;
 var client = require('twilio')('key', 'secret');
 var router = express.Router();
 var google = require('google')
+var systemrequirements ="";
+var temporarycounter = 0;
 
 var twilio = require('twilio');
 var FB = require('fb');
